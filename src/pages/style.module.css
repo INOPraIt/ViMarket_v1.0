@@ -1,0 +1,42 @@
+.animShow {
+  opacity: 0;
+  transition: 1s;
+  animation: show 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.oneStyle {
+  text-align: center;
+  color: rgb(2, 2, 2);
+
+}
+
+.link{
+  font-size: 25;
+  color: rgb(8, 156, 255);
+  text-decoration: none;
+}
+
+.postOne{
+  color: white;
+  margin-top: 100;
+  font-family: secretFont;
+  max-width: 200;
+}
+
+@font-face {
+  font-family: "secretFont";
+  src: url("./fonts/vinnytsiasansreg.ttf");
+}
+
