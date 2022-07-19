@@ -166,7 +166,7 @@ const ScheduleDay = () => {
 	];
 	return (
 		<div className='container'>
-			<div style={{ width: '100%' }}>
+			<div style={{ width: '100%', color: 'white' }}>
 				<h3>Статистика за день</h3>
 				<ResponsiveContainer width="100%" height={200}>
 					<AreaChart

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Component } from 'react/cjs/react.development';
 import {
 	LineChart,
 	Line,
@@ -14,92 +13,63 @@ import {
 	ResponsiveContainer,
 } from 'recharts';
 
-const ScheduleYear = () => {
+const ScheduleWeek = () => {
 
-
-	const year = [
+	const week = [
 		{
-			name: 'January',
+			name: 'Monday',
 			uv: 4000,
 			pv: 2400,
 			amt: 2400,
 		},
 		{
-			name: 'February',
+			name: 'Tuesday',
 			uv: 3000,
 			pv: 1398,
 			amt: 2210,
 		},
 		{
-			name: 'March',
+			name: 'Wednesday',
 			uv: 2000,
 			pv: 9800,
 			amt: 2290,
 		},
 		{
-			name: 'April',
+			name: 'Thursday',
 			uv: 2780,
 			pv: 3908,
 			amt: 2000,
 		},
 		{
-			name: 'May',
+			name: 'Friday',
 			uv: 1890,
 			pv: 4800,
 			amt: 2181,
 		},
 		{
-			name: 'June',
+			name: 'Saturday',
 			uv: 2390,
 			pv: 3800,
 			amt: 2500,
 		},
 		{
-			name: 'July',
-			uv: 3490,
-			pv: 4300,
-			amt: 2100,
-		},
-		{
-			name: 'August',
-			uv: 3490,
-			pv: 4300,
-			amt: 2100,
-		},
-		{
-			name: 'September',
-			uv: 3490,
-			pv: 4300,
-			amt: 2100,
-		},
-		{
-			name: 'October',
-			uv: 3490,
-			pv: 4300,
-			amt: 2100,
-		},
-		{
-			name: 'November',
-			uv: 3490,
-			pv: 4300,
-			amt: 2100,
-		},
-		{
-			name: 'December',
+			name: 'Sunday',
 			uv: 3490,
 			pv: 4300,
 			amt: 2100,
 		},
 	];
+
 	return (
 		<div className='container'>
-			<div style={{ width: '100%' }}>
-						<h3>Статистика за год</h3>
+			<div style={{ width: '100%', color: 'white' }}>
+
+						<h3>Статистика за месяц</h3>
 						<ResponsiveContainer width="100%" height={200}>
-							<LineChart
+							<AreaChart
 								width={500}
 								height={200}
-								data={year}
+								data={week}
 								syncId="anyId"
 								margin={{
 									top: 10,
@@ -112,12 +82,13 @@ const ScheduleYear = () => {
 								<XAxis dataKey="name" />
 								<YAxis />
 								<Tooltip />
-								<Line type="monotone" dataKey="uv" stroke="rgb(255, 8, 8)" fill="rgba(255, 255, 255, 0)" />
-							</LineChart>
+								<Area type="monotone" dataKey="pv" stroke="rgb(28, 255, 8)" fill="rgba(255, 255, 255, 0)" />
+							</AreaChart>
 						</ResponsiveContainer>
+
 			</div>
 		</div>
 	)
 }
 
-export default ScheduleYear;
+export default ScheduleWeek;

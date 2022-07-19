@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import s from '../../style.module.css';
 
 const Navbar = () => {
@@ -17,14 +17,15 @@ const Navbar = () => {
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style={{ fontSize: 20, color: 'white' }}>
-                <li><NavLink class="nav-link active" to="/profile" className={s.link}>Ваш профиль</NavLink></li>
+                <li><Link class="nav-link active" to="/profile" className={s.link}><h4>Ваш профиль</h4></Link></li>
                 <li class="nav-item">
-                  <NavLink class="nav-link active" to="/" className={s.link}>Главная</NavLink>
+                  <Link class="nav-link active" to="/" className={s.link}><h4>Главная</h4></Link>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-link active" to="/market" className={s.link}>Маркетплейс</NavLink>
+                  <Link class="nav-link active" to="/market" className={s.link}><h4>Маркетплейс</h4></Link>
                 </li>
-                <li><NavLink class="nav-link active" to="/profile" className={s.link}>Рулетка</NavLink></li>
+                <li><Link class="nav-link active" to="/rulet" className={s.link}><h4>Рулетка</h4></Link></li>
+                <li><Link class="nav-link active" to="/bank" className={s.link}><h4>Банк</h4></Link></li>
               </ul>
             </div>
           </div>

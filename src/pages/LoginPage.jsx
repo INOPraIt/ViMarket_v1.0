@@ -11,14 +11,13 @@ const LoginPage = () => {
         <Login />
       </div>
       <div>
-
       <p>
         <button className='btn btn-outline-danger' style={{width: 400, marginLeft: 762, marginTop: 17 }}><Link to="/register">Нет аккаунта зарегистрируйся</Link></button>
       </p>
-              
+          <h1></h1>    
       </div>
     </div>
   )
 }
 
-export default LoginPage
+export default LoginPage;

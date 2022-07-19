@@ -19,12 +19,11 @@
 .oneStyle {
   text-align: center;
   color: rgb(2, 2, 2);
-
 }
 
 .link{
-  font-size: 25;
-  color: rgb(8, 156, 255);
+  font-size: 40;
+  color: rgb(8, 255, 243);
   text-decoration: none;
 }
 
@@ -35,8 +34,59 @@
   max-width: 200;
 }
 
+.postTwo {
+  color: white;
+  margin-top: 50;
+  font-family: comic;
+}
+
 @font-face {
   font-family: "secretFont";
   src: url("./fonts/vinnytsiasansreg.ttf");
 }
 
+@font-face {
+  font-family: "comic";
+  src: url("./fonts/ComicMonoBold.ttf");
+}
+
+.hoverImageScale {
+  display: inline-block; 
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.hoverImageScale img {
+  filter: blur(1px);
+  transition: 2s; /* Время эффекта */
+  display: block; 
+}
+.hoverImageScale img:hover {
+  transform: scale(1.1); /* Увеличиваем масштаб */
+  filter: blur(0);
+}
+
+img.smallRotate {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+img.smallRotate:hover {
+  -webkit-transform: rotate(2deg); /* Градусы поворота можно изменить по необходимости */
+          transform: rotate(2deg); /* Градусы поворота можно изменить по необходимости */
+}
+
+.beautyRotate {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: 4px double #14b2e2; /* Рамка */
+  overflow: hidden;
+  -webkit-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+} 
+.beautyRotate:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+   

@@ -1,0 +1,340 @@
+.linkProfile{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfile:hover {
+  color: rgb(0, 247, 255); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOut a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOut a:after {
+  background-color: #323232; /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOut a:hover:after,
+.linkEaseInOut a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.linkProfiles{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfiles:hover {
+  color: rgb(255, 251, 0); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOuts a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOuts a:after {
+  background-color: #f6ff00; /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOuts a:hover:after,
+.linkEaseInOuts a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.linkProfilea{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfilea:hover {
+  color: rgb(132, 0, 255); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOuta a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOuta a:after {
+  background-color: rgb(132, 0, 255); /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOuta a:hover:after,
+.linkEaseInOuta a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+.linkProfiled{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfiled:hover {
+  color: rgb(0, 214, 46); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOutd a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOutd a:after {
+  background-color: rgb(0, 214, 46); /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOutd a:hover:after,
+.linkEaseInOutd a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.linkProfileg{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfileg:hover {
+  color: rgb(255, 0, 255); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOutg a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOutg a:after {
+  background-color: rgb(255, 0, 255); /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOutg a:hover:after,
+.linkEaseInOutg a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.linkProfileс{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfileс:hover {
+  color: rgb(255, 162, 0); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOutс a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOutс a:after {
+  background-color: rgb(255, 162, 0); /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOutс a:hover:after,
+.linkEaseInOutс a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.linkProfilef{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfilef:hover {
+  color: rgb(0, 145, 255); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOutf a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOutf a:after {
+  background-color: rgb(0, 145, 255); /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOutf a:hover:after,
+.linkEaseInOutf a:focus:after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linkProfile{
+  color: #5a5a5a; /* Цвет текста */
+  background: rgba(255, 255, 204, 0); /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+}
+.linkProfile:hover {
+  color: rgb(0, 255, 247); /* Цвет текста */
+  background: #f66d5200; /* Цвет фона */
+}
+
+.linkEaseInOut a {
+  display: inline-block;
+  color: #ffffff; /* Цвет обычной ссылки */
+  line-height: 1;
+  text-decoration: none; /* Убираем подчеркивание */
+  cursor: pointer;
+}
+
+.linkEaseInOut a:after {
+  background-color: #00fbff; /* Цвет линии при наведении на нее курсора мыши */
+  display: block;
+  content: "";
+  margin-top: 100;
+  height: 2px; /* Высота линии */
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.linkEaseInOut a:hover:after,
+.linkEaseInOut a:focus:after {
+  width: 100%;
+}
